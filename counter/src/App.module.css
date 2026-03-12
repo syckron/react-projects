@@ -1,0 +1,20 @@
+/* counter/src/App.module.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    transition: 0.2s;
+    justify-content: center;
+    background-color: #e5e5e5;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.container.dark {
+    transition: 0.2s;
+    background-color: #111111;
+}
