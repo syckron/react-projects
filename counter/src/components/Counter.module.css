@@ -1,5 +1,8 @@
 /* counter/src/components/Counter.module.css */
 .box {
+    position: absolute;
+    touch-action: none;
+    user-select: none;
     transition: 0.2s;
     display: flex;
     flex-direction: column;
@@ -22,11 +25,17 @@
 }
 
 .box h1 {
+    animation: pop 0.2s;
     transition: 0.2s;
     margin: 0;
     color: #616161;
     white-space: nowrap;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+@keyframes pop {
+    0% { transform: scale(0.9); }
+    100% { transform: scale(1); }
 }
 
 .box.dark h1 {

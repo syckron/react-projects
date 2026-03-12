@@ -7,11 +7,8 @@
 
 .container {
     transition: 0.2s;
-    justify-content: center;
+    min-height: 100vh;
     background-color: #e5e5e5;
-    align-items: center;
-    display: flex;
-    height: 100vh;
 }
 
 .container.dark {
