@@ -1,0 +1,20 @@
+/* tic-tac-toe/src/components/Square.module.css */
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin: 0;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+
+    /* Reset do botão */
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+}

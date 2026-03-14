@@ -1,0 +1,16 @@
+/* tic-tac-toe/src/components/Board.module.css */
+.box h1 {
+    text-align: center;
+}
+
+.game {
+    background-color: #e5e5e5;
+    display: inline-flex;
+    flex-direction: column;  /* empilha as linhas verticalmente */
+    padding: 20px;
+}
+
+.boardrow {
+    display: flex;
+    flex-direction: row;     /* coloca os quadrados lado a lado */
+}
